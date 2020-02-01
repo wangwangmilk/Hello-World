@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "j-swiper":"/components/j-swiper/j-swiper",
+    "j-recommend": "./childCmps/j-recommend/j-recommend",
+    "j-popular": "./childCmps/j-popular/j-popular",
+    "j-tab-control": "/components/j-tab-control/j-tab-control",
+    "j-goodslist": "/components/j-goodslist/j-goodslist",
+    "j-backtop": "/components/j-backtop/j-backtop"
+
+  },
+  "navigationBarTitleText": "购物街"
+}

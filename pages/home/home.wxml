@@ -1,0 +1,9 @@
+<j-swiper banners="{{banners}}"/>
+<j-recommend recommends="{{recommends}}" bind:imageLoad="handleImageLoad"/>
+<j-popular/>
+<j-tab-control titles="{{titles}}" bind:handleTabClick="handleTabClick" id="tab-control"/>
+<j-tab-control titles="{{titles}}" bind:handleTabClick="handleTabClick"
+wx-if="{{isTabFixed}}" class="{{isTabFixed?'fixed':''}}"/>
+
+<j-goodslist goods="{{goods[currentType].list}}"/>
+<j-backtop wx:if="{{showBackTop}}"/>

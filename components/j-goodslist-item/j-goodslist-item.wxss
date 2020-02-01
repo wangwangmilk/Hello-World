@@ -1,0 +1,46 @@
+/* components/j-goodslist-item/j-goodlist-item.wxss */
+.goodslist-item {
+ color: #666;
+  padding-bottom: 85rpx;
+  text-align:center;
+  
+}
+.goodslist-item image {
+  width:100%;
+  border-radius: 10rpx;
+ 
+}
+
+.item-info{
+ left:0;
+ right:0;
+ bottom:5rpx;
+ position:absolute;
+}
+.message {
+  display:flex;
+  justify-content: center;
+  position:relative;
+}
+.title {
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  font-size: 28rpx;
+}
+.message .icon {
+  width:30rpx;
+  height:30rpx;
+  position:absolute;
+  left:50%;
+  bottom:5rpx;
+}
+ .price {
+  font-size: 30rpx;
+  padding-right:70rpx;
+}
+/* wxss中不能使用本地图片 */
+.item-info .cfav {
+  font-size: 30rpx;
+   padding-right:40rpx;
+}

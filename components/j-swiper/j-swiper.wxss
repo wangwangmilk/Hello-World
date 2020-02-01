@@ -1,0 +1,4 @@
+/* components/j-swiper/j-swiper.wxss */
+.swiper-item image {
+  width:100%;
+}

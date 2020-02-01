@@ -1,0 +1,5 @@
+/* pages/home/childCmps/j-popular/j-popular.wxss */
+.popular image {
+  /* 若果是直接写image，对别的组件的image属性也有影响！！！！！ */
+  width:100%;
+}

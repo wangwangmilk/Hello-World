@@ -1,0 +1,12 @@
+<view class="goodslist-item">
+<image src="{{item.show.img}}" mode="widthFix"/>
+<view class="item-info">
+<view class="title">{{item.title}}</view>
+<view class="message">
+<text class="price">¥{{item.price}}</text>
+<image class="icon" src="/assets/common/favor.png" mode="widthFix"/>
+<text class="cfav">{{item.cfav}}</text>
+</view>
+</view>
+
+</view>

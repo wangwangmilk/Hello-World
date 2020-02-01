@@ -1,0 +1,10 @@
+/* components/j-backtop/j-backtop.wxss */
+.back-top {
+  position:fixed;
+  right:50rpx;
+  bottom:50rpx;
+}
+.back-top image {
+  width:100rpx;
+  height: 100rpx;
+}

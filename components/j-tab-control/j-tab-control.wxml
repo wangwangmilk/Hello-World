@@ -1,0 +1,7 @@
+<view class="tab-control">
+<block wx:for="{{titles}}" wx:key="index">
+<!-- 是判断index是否与定义的currentIndex相等，样式需要引号！！！ -->
+<view class=" {{currentIndex===index?'active':''}}" bind:tap="handleSwitchTab" data-index="{{index}}" >
+<text>{{item}}</text></view>
+</block>
+</view>

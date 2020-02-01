@@ -1,0 +1,11 @@
+/* components/j-goodslist/j-goodslist.wxss */
+.goods-list {
+  display:flex;
+  /* 是否包裹，布包裹是在一行，包裹后一行显示不下会换行 */
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+.list-item {
+  width:48%;
+  position:relative;
+}

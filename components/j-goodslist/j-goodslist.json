@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+  "j-goodslist-item":"../../components/j-goodslist-item/j-goodslist-item"
+  }
+}
